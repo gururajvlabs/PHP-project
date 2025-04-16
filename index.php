@@ -28,13 +28,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Cosmic Portal</title>
+    <title>Login - Login</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-gradient-to-br from-purple-600 via-indigo-500 to-blue-500 min-h-screen flex items-center justify-center">
     <div class="bg-white bg-opacity-10 backdrop-blur-lg rounded-xl p-8 max-w-md w-full shadow-2xl transform hover:scale-105 transition-transform duration-300">
-        <h2 class="text-3xl font-bold text-white text-center mb-6">Enter the Cosmos</h2>
+        <h2 class="text-3xl font-bold text-white text-center mb-6">Login to Your Account </h2>
         <?php if ($error): ?>
             <p class="text-red-300 text-center mb-4"><?php echo $error; ?></p>
         <?php endif; ?>
