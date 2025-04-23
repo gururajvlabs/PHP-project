@@ -1,5 +1,9 @@
 <?php
 session_start();
+if (isset($_SESSION['user'])) {
+   header('Location: welcome.php');
+   exit;
+}
 require_once 'config.php';
 $error = '';
 
