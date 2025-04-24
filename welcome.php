@@ -23,7 +23,7 @@ $username = htmlspecialchars($_SESSION['user'], ENT_QUOTES, 'UTF-8');
       <p class="text-gray-200 mb-6">You have arrived, matey! This is where the realms of the seas and legends collide.</p>
       <p class="text-gray-200 mb-6">The problem is not the problem. The problem is the attitude towards the problem. - Captain Jack Sparrow. Savvy?</p>
       <p class="text-gray-200 mb-6">Now brace yourself, for the tides are ever-changing, and the horizon holds secrets untold.</p>
-      <a href="logout.php" class="inline-block bg-red-600 hover:bg-red-700 text-white p-3 rounded font-semibold transition-colors">Logout</a>
+      <a href="./logout.php" class="inline-block bg-red-600 hover:bg-red-700 text-white p-3 rounded font-semibold transition-colors">Logout</a>
    </div>
 </body>
 
